@@ -32,16 +32,16 @@ Docker Installation:
 1. Open a terminal or command prompt.
 2. Build the Docker image using the following command:
 
-   docker build -t file-sanitizer .
+   docker build -t filesanitizer .
    
 3. Run the Docker container using the following command:
 
-   docker run -p 5067 file-sanitizer
+   docker run -p filesanitizer
 
 
 ## Usage
 
-1. Launch the application Swagger in your web browser http://localhost:5067/swagger/index.html
+1. Launch the application Swagger in your web browser http://localhost:[portNumber]/swagger/index.html
 2. The Swagger UI page will be displayed, showing the available endpoints and operations.
 3. Expand the "FileSanitizer" section to view the available operations.
 4. Click on the "POST /filesanitizer/sanitize" endpoint to expand it.
